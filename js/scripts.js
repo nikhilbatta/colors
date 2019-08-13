@@ -1,0 +1,14 @@
+$(function(){
+  $("#green").click(function(){
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+  $("#yellow").click(function(){
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+  $("#red").click(function(){
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
+});
